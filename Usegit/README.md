@@ -1,5 +1,5 @@
-#使用git/github
-git基本操作
+# 使用git/github
+## git基本操作
 	1. 下载桌面版git
 	2. git config --global user.name 'myname'
 	   git config --global user.email 'email@example.com'
@@ -13,7 +13,8 @@ git基本操作
 	6. rm -rf 1.cpp //删除文件
 	7. git rm 1.cpp //从git仓库删除
 
-git连接远端GitHub
+##  git连接远端GitHub
+
 1. ssh-keygen -t rsa -C "youremail@example.com" 
 2. clip < ~/.ssh/id_rsa.pub   // 复制密钥
 3. 将密钥添加到GitHub SSH key里面
