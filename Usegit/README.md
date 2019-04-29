@@ -19,5 +19,6 @@
 1. ssh-keygen -t rsa -C "mail@example.com" 
 2. clip < ~/.ssh/id_rsa.pub   // 复制密钥
 3. 将密钥添加到GitHub SSH key里面
-4. git push -u origin master  //把 库 上传到GitHub master分支上
+4. git remote add  origin git@github.com:ansheng/repository.git //这里创建项目远端连接 GitHub库
+5. git push -u origin master  //把 origin 上传到 上一步连接仓库的 master分支上
 
